@@ -7,7 +7,6 @@
 \usepackage{float}
 \usepackage{enumerate}
 \usepackage{makeidx}
-\usepackage{parskip}
 \usepackage{booktabs}
 \usepackage{pdfpages}
 
@@ -28,7 +27,7 @@
   \end{center}
 }
 
-\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\newcommand{\RowStretch}[1]{\renewcommand{\arraystretch}{#1}}
 
 
 
@@ -42,10 +41,11 @@
 
 \section{Introduction}
 \label{sec:introduction}
-\input{introduction}
+% \input{introduction}
+Introdução do documento
 
-\begin{table}[ht]\centering
-    \ra{1.3}
+\begin{table*}[ht]\centering
+    \RowStretch{1.3}
     \begin{tabular}{@{}lccccccc@{}}\toprule
     Col1    & Col2  & Col3  & Col4  & Col5  & Col6 \\
     \midrule
@@ -54,6 +54,6 @@
     \end{tabular}
     \caption{A sample table.}
     \label{tab:label}
-\end{table}
+\end{table*}
 
 \end{document}
