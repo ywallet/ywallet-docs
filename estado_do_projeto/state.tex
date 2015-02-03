@@ -1,38 +1,45 @@
-Para identificar o estado atual do projecto, realizou-se este documento no qual são listadas as funcionalidades/requisitos a implementar, e se indica o grau de completude de cada uma.
+O presente documento relata e resume o estado atual do projeto, em relação às funcionalidades presentes, funcionalidades pendentes, e os requisitos impostos.
 
-Na tabela seguinte são apresentadas as funcionalidades ou requisitos funcionais planeados na fase inicial deste projecto, e é indicado, para cada uma deles, se foram implementados com sucesso.
+Na Tabela \ref{tab:func} são apresentadas as funcionalidades ou requisitos funcionais planeados na fase inicial deste projecto, e é indicado, para cada uma deles, se foram implementados com sucesso.
 
 \begin{center}
     \RowStretch{1.3}
-\begin{longtable}{@{}lp{0.3\textwidth}cp{0.3\textwidth}@{}}
-    \toprule \#  & Funcionalidade    & Progresso    & Comentários \\ \midrule
+\begin{longtable}{@{}lcp{0.3\textwidth}cp{0.3\textwidth}@{}}
+    \toprule \#  & MoSCoW & Funcionalidade    & Estado   & Observações \\ \midrule
     \endfirsthead
-    \toprule \#  & Funcionalidade    & Progresso    & Comentários \\ \midrule
+    \toprule \#  & MoSCoW & Funcionalidade    & Estado   & Observações \\ \midrule
     \endhead
     \bottomrule
-    \caption{Caption}\label{tab:func}\\%
+    \caption{Sumário do estado do projeto.}\label{tab:func}\\%
     \endfoot
     \bottomrule
-    \caption[]{(continuação)}\\%
+    \caption[]{Sumário do estado do projeto.}\\%
     \endlastfoot
-    1   & Criar conta de utilizador.  & Concluído  &  \\
-    2   & Editar conta de utilizador.  & Concluído  &  \\
-    3   & Associar conta de serviço de gestão de dinheiro.  & Concluído  &  \\
-    4   & Consultar histórico de gastos.  & 100  &  \\
-    5   & Filtrar histórico de gastos por data.  & 100  &  \\
-    6   & Filtrar histórico de gastos por localização.  & 0  & As funcionalidades relacionadas com geolocalização foram consideradas menos importantes e não foram implementadas por falta de tempo. \\
-    7   & Consultar estado de conta.  & 100  &  \\
-    8   & Definir limites de utilização do dinheiro em ordem ao tempo.  & 100  &  \\
-    9   & Definir limites de utilização do dinheiro em ordem à localização.  & 0  & As funcionalidades relacionadas com geolocalização foram consideradas menos importantes e não foram implementadas por falta de tempo. \\
-    10  & Definir regras de notificação simples.  & 100  &  \\
-    11  & Definir regras de notificação complexas.  & 0  & Numa fase inicial, apenas foram implementadas notificações para situações comuns, mas no futuro irá ser implementado um motor de regras de notificação mais flexível. \\
-    12  & Consultar notificações.  & 100  &  \\
-    13  & Efetuar pedidos de acesso a quantias de dinheiro.  & 100  &  \\
-    14  & Receber e responder a pedidos de acesso a quantias de dinheiro.  & 100  &  \\
-    15  & Autorizar espontaneamente o acesso a quantias de dinheiro extraordinárias.  & 100  &  \\
-    16  & Efetuar pagamentos a comerciantes.  & 0  &  \\
-    17  & Transferir dinheiro para outros utilizadores.  & 0  &  \\
-    18  & Definir metas de poupança.  & 100  & 
+    \multicolumn{5}{l}{\color{gray} Uso Geral da Plataforma} \\
+    1   & M & Criar conta de utilizador. & Concluído  &  \\
+    2   & M & Editar informação de utilizador. & Concluído  &  \\
+    3   & M & Associar conta de serviço de gestão de dinheiro. & Concluído  &  \\
+    \multicolumn{5}{l}{\color{gray} Restrições de Uso de Dinheiro} \\
+    4   & M & Definir limites de utilização do dinheiro em ordem ao tempo. & Parcial &  \\
+    5   & C & Definir limites de utilização do dinheiro em ordem à localização. & A Fazer & A geolocalização foi deixada para trabalho futuro. \\
+    \multicolumn{5}{l}{\color{gray} Consulta de Informação} \\
+    6   & M & Consultar histórico de gastos. & Parcial  &  \\
+    7   & M & Filtrar histórico de gastos por data. & Parcial  &  \\
+    8   & C & Filtrar histórico de gastos por localização. & A Fazer & A geolocalização foi deixada para trabalho futuro. \\
+    9   & M & Consultar estado de conta. & Parcial & Faltam acertos de comunicação entre cliente e servidor. \\
+    \multicolumn{5}{l}{\color{gray} Notificações} \\
+    10  & S & Definir regras de notificação simples. & Parcial &  \\
+    11  & S & Definir regras de notificação complexas. & A Fazer & Um motor de regras de notificação flexível foi deixado para trabalho futuro. \\
+    \multicolumn{5}{l}{\color{gray} Transferência de Dinheiro} \\
+    12  & S & Autorizar o acesso a quantias de dinheiro extraordinárias, sem pedidos. & A Fazer &  \\
+    13  & S & Receber e responder a pedidos de acesso a quantias de dinheiro. & Parcial & Falta suporte do servidor. \\
+    14  & S & Efetuar pedidos de acesso a quantias de dinheiro. & A Fazer &  \\
+    \multicolumn{5}{l}{\color{gray} Organização de Informação} \\
+    15  & M & Gerar estatísticas do uso da conta. & A Fazer &  \\
+    \multicolumn{5}{l}{\color{gray} Outros} \\
+    16  & M & Efetuar pagamentos a comerciantes. & A Fazer &  \\
+    17  & C & Transferir dinheiro para outros utilizadores. & A Fazer &  \\
+    18  & C & Definir metas de poupança. & Parcial & Faltam acertos de comunicação entre cliente e servidor.
 \end{longtable}
 \end{center}
 
