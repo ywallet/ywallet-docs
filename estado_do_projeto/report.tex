@@ -2,14 +2,17 @@
 \usepackage[portuges]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
 \usepackage{graphicx}
-
 \usepackage{float}
 \usepackage{enumerate}
 \usepackage{makeidx}
 \usepackage{booktabs}
+\usepackage{longtable}
 \usepackage{pdfpages}
 \usepackage{a4wide}
+\usepackage{xcolor}
 
 \setlength\oddsidemargin{0.3in}
 \setlength\evensidemargin{-0.3in}
@@ -43,23 +46,8 @@
 
 \includepdf[pages=-]{capa}
 
-\tableofcontents
-
-\section{Introduction}
-\label{sec:introduction}
-% \input{introduction}
-Introdução do documento
-
-\begin{table*}[ht]\centering
-    \RowStretch{1.3}
-    \begin{tabular}{@{}lccccccc@{}}\toprule
-    Col1    & Col2  & Col3  & Col4  & Col5  & Col6 \\
-    \midrule
-    Val1    & Val2  & Val3  & Val4  & Val5  & Val6 \\
-    \bottomrule
-    \end{tabular}
-    \caption{A sample table.}
-    \label{tab:label}
-\end{table*}
+\section*{Estado do Projeto}
+\label{sec:state}
+\input{state}
 
 \end{document}

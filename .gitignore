@@ -1,4 +1,5 @@
-/template/*.gz
-/template/*.toc
-/template/*.log
-/template/*.aux
+*.gz
+*.toc
+*.log
+*.aux
+*.out
