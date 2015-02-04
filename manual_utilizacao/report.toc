@@ -1,0 +1,15 @@
+\select@language {portuges}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{3}
+\contentsline {section}{\numberline {2}Autentica\IeC {\c c}\IeC {\~a}o}{4}
+\contentsline {subsection}{\numberline {2.1}Registo}{4}
+\contentsline {subsection}{\numberline {2.2}Login}{5}
+\contentsline {subsection}{\numberline {2.3}Recuperar a \textit {Password}}{5}
+\contentsline {section}{\numberline {3}Menu}{6}
+\contentsline {section}{\numberline {4}\textit {Dashboard}}{7}
+\contentsline {section}{\numberline {5}Mesadas}{7}
+\contentsline {section}{\numberline {6}Pagamentos}{9}
+\contentsline {section}{\numberline {7}Hist\IeC {\'o}rico}{11}
+\contentsline {section}{\numberline {8}Notifica\IeC {\c c}\IeC {\~o}es}{11}
+\contentsline {section}{\numberline {9}Poupan\IeC {\c c}as}{12}
+\contentsline {section}{\numberline {10}Regras}{13}
+\contentsline {section}{\numberline {11}Configura\IeC {\c c}\IeC {\~o}es}{14}

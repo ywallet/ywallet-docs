@@ -47,37 +47,62 @@
 
 \pagebreak
 
-\section{Autenticação}
+  \section{Introdução}
+  O presente documento tem como objetivo explicar como se utiliza a aplicação \textit{yWallet}. Após a leitura do documento é possível o utilizador começar a utilizar a aplicação. A \textit{app yWallet} foi construída com o objetivo de ser simples e intuitiva por forma a que os utilizadores a consigam utilizar sem recorrer à leitura deste documento. 
+
+  O documento está organizado em várias secções, que correspondem às funcionalidades da aplicação, onde se descreve e ilustra os ecrãs da respetiva funcionalidade.
+
+  Qualquer dúvida pode ser esclarecida através do \textit{website} da \textit{yWallet}: http://ywallet.co (ver Figura \ref{website}). Está disponível a api utilizada pela aplicação da yWallet em http://ywallet.co/api (ver Figura \ref{api})
 
   \begin{figure}[H]
     \begin{center}
-      \includegraphics[width=0.75\textwidth]{authentication/init.png}
+      \includegraphics[width=0.5
+      \textwidth]{website.png}
     \end{center}
-    \caption{Arquitetura da plataforma}
-    \label{fig:arq_app}
+    \caption{\textit{Website yWallet}}
+    \label{website}
   \end{figure}
 
-  \subsection{Registo}
+  \begin{figure}[H]
+    \begin{center}
+      \includegraphics[width=0.5
+      \textwidth]{api.png}
+    \end{center}
+    \caption{\textit{API yWallet}}
+    \label{api}
+  \end{figure}
 
-  \subsection{Login}
+  \pagebreak
 
-  \subsection{Recuperar a \textit{Password}}
+  \section{Autenticação}  
+  \input{authentication/authentication.tex}
 
-\section{\textit{Dashboard}}
+  \section{Menu}  
+  \input{menu/menu.tex}
 
-\section{Conta}
+  \section{\textit{Dashboard}}
+  \input{dashboard/dashboard.tex}
 
-\section{Mesadas}
+  \section{Mesadas}
+  \input{allowances/allowances.tex}
 
-\section{Pagamentos}
+  \section{Pagamentos}
+  \input{payments/payments.tex}
 
-\section{Histórico}
+  \section{Histórico}
+  \input{history/history.tex}
 
-\section{Notificações}
+  \section{Notificações}
+  \input{notifications/notifications.tex}
 
-\section{Poupanças}
+  \section{Poupanças}
+  \input{savings/savings.tex}
 
-\section{Configurações}
+  \section{Regras}
+  \input{rules/rules.tex}  
 
+  \section{Configurações}
+  \label{sec:conf}
+  \input{settings/settings.tex}
 
 \end{document}
