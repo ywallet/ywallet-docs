@@ -1,0 +1,81 @@
+\select@language {portuges}
+\contentsline {section}{\numberline {1}Vis\IeC {\~a}o Geral do Produto}{4}
+\contentsline {subsection}{\numberline {1.1}Prop\IeC {\'o}sito do Produto}{4}
+\contentsline {subsubsection}{\numberline {1.1.1}Descri\IeC {\c c}\IeC {\~a}o do Problema}{4}
+\contentsline {subsubsection}{\numberline {1.1.2}Proposta de Solu\IeC {\c c}\IeC {\~a}o}{4}
+\contentsline {subsection}{\numberline {1.2}Clientes e Stakeholders}{5}
+\contentsline {subsubsection}{\numberline {1.2.1}Clientes}{5}
+\contentsline {subsubsection}{\numberline {1.2.2}Stakeholders}{5}
+\contentsline {subsection}{\numberline {1.3}Utilizadores do Produto}{6}
+\contentsline {subsubsection}{\numberline {1.3.1}Pai}{6}
+\contentsline {subsubsection}{\numberline {1.3.2}Jovem}{6}
+\contentsline {subsubsection}{\numberline {1.3.3}Desenvolvedor}{7}
+\contentsline {subsubsection}{\numberline {1.3.4}Administrador}{7}
+\contentsline {subsection}{\numberline {1.4}Concorrentes}{7}
+\contentsline {subsubsection}{\numberline {1.4.1}Escolas}{8}
+\contentsline {subsubsection}{\numberline {1.4.2}Cart\IeC {\~a}o LOL da Caixa Geral de Dep\IeC {\'o}sitos}{8}
+\contentsline {subsubsection}{\numberline {1.4.3}Allowance Manager}{8}
+\contentsline {subsubsection}{\numberline {1.4.4}Simple}{8}
+\contentsline {subsubsection}{\numberline {1.4.5}Carteiras Digitais}{8}
+\contentsline {subsection}{\numberline {1.5}Oportunidade e Modelo de Neg\IeC {\'o}cio}{9}
+\contentsline {section}{\numberline {2}Restri\IeC {\c c}\IeC {\~o}es do Projeto}{10}
+\contentsline {subsection}{\numberline {2.1}Mandated Constraints}{10}
+\contentsline {subsubsection}{\numberline {2.1.1}Restri\IeC {\c c}\IeC {\~o}es da Solu\IeC {\c c}\IeC {\~a}o}{10}
+\contentsline {subsubsection}{\numberline {2.1.2}Ambiente de Implementa\IeC {\c c}\IeC {\~a}o do Sistema Atual}{11}
+\contentsline {subsubsection}{\numberline {2.1.3}Parceiros ou Aplica\IeC {\c c}\IeC {\~o}es Colaborativas}{11}
+\contentsline {subsubsection}{\numberline {2.1.4}Outras Restri\IeC {\c c}\IeC {\~o}es}{11}
+\contentsline {subsection}{\numberline {2.2}Defini\IeC {\c c}\IeC {\~o}es e Conven\IeC {\c c}\IeC {\~o}es de Nomenclatura}{12}
+\contentsline {subsubsection}{\numberline {2.2.1}Gloss\IeC {\'a}rio}{12}
+\contentsline {subsubsection}{\numberline {2.2.2}Dicion\IeC {\'a}rio de Dados}{12}
+\contentsline {subsection}{\numberline {2.3}Assun\IeC {\c c}\IeC {\~o}es de Factos Relevantes}{13}
+\contentsline {subsubsection}{\numberline {2.3.1}Factos}{13}
+\contentsline {subsubsection}{\numberline {2.3.2}Assun\IeC {\c c}\IeC {\~o}es}{13}
+\contentsline {section}{\numberline {3}Requisitos Funcionais}{14}
+\contentsline {subsection}{\numberline {3.1}\IeC {\^A}mbito do Trabalho}{14}
+\contentsline {subsubsection}{\numberline {3.1.1}Situa\IeC {\c c}\IeC {\~a}o Atual}{14}
+\contentsline {subsubsection}{\numberline {3.1.2}Contexto do Trabalho}{14}
+\contentsline {subsection}{\numberline {3.2}\IeC {\^A}mbito do Produto}{15}
+\contentsline {subsection}{\numberline {3.3}Levantamento de Requisitos}{16}
+\contentsline {subsubsection}{\numberline {3.3.1}Entrevistas}{16}
+\contentsline {subsubsection}{\numberline {3.3.2}Question\IeC {\'a}rios}{16}
+\contentsline {subsubsection}{\numberline {3.3.3}Question\IeC {\'a}rio dos Jovens}{17}
+\contentsline {subsubsection}{\numberline {3.3.4}Question\IeC {\'a}rio dos Pais}{20}
+\contentsline {subsection}{\numberline {3.4}Personas}{22}
+\contentsline {subsection}{\numberline {3.5}Requisitos Funcionais e de Dados}{24}
+\contentsline {subsubsection}{\numberline {3.5.1}Uso Geral da Plataforma}{24}
+\contentsline {subsubsection}{\numberline {3.5.2}Restri\IeC {\c c}\IeC {\~o}es de Uso de Dinheiro}{25}
+\contentsline {subsubsection}{\numberline {3.5.3}Consulta de Informa\IeC {\c c}\IeC {\~a}o}{26}
+\contentsline {subsubsection}{\numberline {3.5.4}Notifica\IeC {\c c}\IeC {\~o}es}{27}
+\contentsline {subsubsection}{\numberline {3.5.5}Transfer\IeC {\^e}ncia de Dinheiro}{27}
+\contentsline {subsubsection}{\numberline {3.5.6}Informa\IeC {\c c}\IeC {\~a}o}{28}
+\contentsline {subsubsection}{\numberline {3.5.7}Outros}{28}
+\contentsline {subsection}{\numberline {3.6}Modelo de Dom\IeC {\'\i }nio}{29}
+\contentsline {section}{\numberline {4}Requisitos N\IeC {\~a}o Funcionais}{30}
+\contentsline {subsection}{\numberline {4.1}Apar\IeC {\^e}ncia}{30}
+\contentsline {subsection}{\numberline {4.2}Usabilidade}{31}
+\contentsline {subsection}{\numberline {4.3}Desempenho}{32}
+\contentsline {subsection}{\numberline {4.4}Opera\IeC {\c c}\IeC {\~a}o}{33}
+\contentsline {subsection}{\numberline {4.5}Manuten\IeC {\c c}\IeC {\~a}o, Portabilidade e Suporte}{34}
+\contentsline {subsection}{\numberline {4.6}Seguran\IeC {\c c}a}{35}
+\contentsline {subsection}{\numberline {4.7}Culturais e Pol\IeC {\'\i }ticos}{37}
+\contentsline {subsection}{\numberline {4.8}Legais}{37}
+\contentsline {section}{\numberline {5}Problemas do Projeto}{38}
+\contentsline {subsection}{\numberline {5.1}Produtos Reutiliz\IeC {\'a}veis}{38}
+\contentsline {subsection}{\numberline {5.2}Tarefas}{38}
+\contentsline {paragraph}{}{38}
+\contentsline {paragraph}{}{38}
+\contentsline {paragraph}{}{38}
+\contentsline {paragraph}{}{38}
+\contentsline {paragraph}{}{38}
+\contentsline {paragraph}{}{38}
+\contentsline {subsection}{\numberline {5.3}Riscos}{39}
+\contentsline {subsection}{\numberline {5.4}Custos}{39}
+\contentsline {subsection}{\numberline {5.5}Documenta\IeC {\c c}\IeC {\~a}o}{40}
+\contentsline {subsubsection}{\numberline {5.5.1}Manual de Instala\IeC {\c c}\IeC {\~a}o}{40}
+\contentsline {subsubsection}{\numberline {5.5.2}Manual do Utilizador}{40}
+\contentsline {subsubsection}{\numberline {5.5.3}Guia de Inicia\IeC {\c c}\IeC {\~a}o R\IeC {\'a}pida}{40}
+\contentsline {subsubsection}{\numberline {5.5.4}Manual de Procedimentos de Emerg\IeC {\^e}ncia}{41}
+\contentsline {subsubsection}{\numberline {5.5.5}Folheto de Perguntas Frequentes}{41}
+\contentsline {subsubsection}{\numberline {5.5.6}Menu de Ajuda}{41}
+\contentsline {subsubsection}{\numberline {5.5.7}Licen\IeC {\c c}a e Termos de Uso do Produto}{41}
+\contentsline {subsection}{\numberline {5.6}Trabalho Futuro}{42}
