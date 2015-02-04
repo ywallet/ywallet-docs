@@ -1,9 +1,10 @@
 \documentclass{article}
-\usepackage[portuges]{babel}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+% \usepackage[portuges]{babel}
+% \usepackage[utf8]{inputenc}
+% \usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
 \usepackage{graphicx}
-
 \usepackage{float}
 \usepackage{enumerate}
 \usepackage{makeidx}
@@ -15,6 +16,28 @@
 \setlength\evensidemargin{-0.3in}
 \setlength\headsep{15pt}
 \setlength\footskip{30pt}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[
+  Extension=.ttf,
+  Path=font/,
+  Scale=1.00,
+  BoldFont={NewsGotTMed Regular},
+  ItalicFont={NewsGoth Lt BT Light},
+  ItalicFeatures={FakeSlant},
+  AutoFakeSlant=0.3,
+  BoldItalicFeatures=FakeSlant, 
+]{NewsGotT Regular Fixed}
+
+%Line Spacing
+\usepackage{xspace}
+\usepackage{setspace}
+\onehalfspacing
+
+% Language definitions
+\usepackage{polyglossia}
+\setmainlanguage{portuges}
 
 
 % environment created for organization purposes, only.
